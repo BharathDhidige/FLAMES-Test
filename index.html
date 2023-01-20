@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flames</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <div class="card">
+            <h1 class="heading">Flames</h1>
+            <marquee behavior="scroll" direction="left" style="background-color: rgb(255, 0, 0); color: white; margin-bottom: 10px; font-weight: bold;">Don't worry!! Your data is not stored. Because, I haven't learned that yet ; )</marquee>
+            <label for="yourName">Enter Your Name:</label><br><br>
+            <input type="text" id="your-name"><br><br>
+            <label for="crushName">Enter Your Crush's Name:</label><br><br>
+            <input type="text" id="crush-name"><br><br>
+            <button class="check-button" onclick="calculate()">Check</button>
+            <button class="check-button" onclick="reset()">Reset</button>
+            <div id="results">
+                <h1></h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
